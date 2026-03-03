@@ -21,3 +21,6 @@ main {
   flex-direction: column;
   gap: 2rem;
 }
+footer {
+  background-color: rgb(141, 248, 248);
+}
