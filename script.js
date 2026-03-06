@@ -1,7 +1,7 @@
 function TC() {
   let InputTarefa = document.getElementById("inputTarefa");
   let tarefa = InputTarefa.value;
-  document.getElementById("TudoCerto").textContent = tarefa;
+  //document.getElementById("TudoCerto").textContent = tarefa;
 
   let listaTarefa = document.getElementById("lista");
   let novaTarefa = document.createElement("li");
@@ -12,4 +12,3 @@ function TC() {
 
   InputTarefa.value = "";
 }
-
