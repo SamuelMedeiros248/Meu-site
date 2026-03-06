@@ -12,3 +12,4 @@ function TC() {
 
   InputTarefa.value = "";
 }
+console.log("script carregado");
