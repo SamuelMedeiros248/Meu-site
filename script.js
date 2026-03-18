@@ -7,10 +7,14 @@ function TC() {
     let mensagemErro = "Erro: Adicione um texto!";
     mensagem.textContent = mensagemErro;
     mensagem.style.color = "red";
-  } else if (tarefa == "dalek") {
+  } else if (tarefa == "cyborg" || tarefa == "Cyborg") {
+    let deletar = "Deletar";
+    mensagem.textContent = deletar;
+    mensagem.style.color = "blue";
+  } else if (tarefa == "dalek" || tarefa == "Dalek") {
     let exterminar = "Exterminar!";
     mensagem.textContent = exterminar;
-    mensagem.style.color = "blue";
+    mensagem.style.color = "red";
   } else {
     let mensagemSucesso = "Tarefa adicionada com sucesso!";
     mensagem.textContent = mensagemSucesso;
@@ -25,4 +29,4 @@ function TC() {
   InputTarefa.value = "";
 }
 let scriptV = document.getElementById("scriptV");
-scriptV.textContent = "Script: V0.0.1";
+scriptV.textContent = "Script: V0.0.2";
